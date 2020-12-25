@@ -1,0 +1,34 @@
+.carou__cont {
+  width: 50vw !important;
+  background: lime !important;
+  border: lime solid 5px !important;
+  color: gold;
+}
+.carou__container {
+  width: 100vw !important;
+  background: purple !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.rec-dot {
+  background-color: rgb(235, 16, 16);
+  box-shadow: 0 0 1px 3px rgba(235, 255, 16, 0.5);
+}
+button.rec-pagination {
+  background-color: rgb(235, 255, 216);
+  box-shadow: 0 0 1px 3px rgba(235, 255, 16, 0.5);
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(235, 255, 16, 0.5);
+}
+.rec.rec-arrow {
+  background: white;
+}
+
+.rec.rec-arrow:hover {
+  background: gold !important;
+}
